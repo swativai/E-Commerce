@@ -16,7 +16,7 @@ const App = () => {
   const theme = {
     colors: {
       bg: "#F6F8BFA",
-      footer_bg: "0a1435",
+      footer_bg: "#0a1435",
       btn: "rgb(98, 84, 234,0.5)",
       border: "rgba(98, 84, 234,0.5)",
       hr: "#ffffff",
