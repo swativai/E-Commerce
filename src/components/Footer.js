@@ -12,7 +12,7 @@ const Footer = () => {
       <section className="contact-short">
         <div className="grid grid-two-column">
           <div>
-            <h3>Ready to get started?</h3> 
+            <h3>Ready to get started?</h3>
             <h3>Talk to us today</h3>
           </div>
           <div>
@@ -97,7 +97,8 @@ const Wrapper = styled.section`
       margin-bottom: 2.4rem;
     }
     p {
-      color: ${({ theme }) => theme.colors.white};
+      ${"" /* color: ${({ theme }) => theme.colors.white}; */}
+      color:white;
     }
     .footer-social--icons {
       display: flex;
@@ -108,7 +109,8 @@ const Wrapper = styled.section`
         border: 2px solid ${({ theme }) => theme.colors.white};
 
         .icons {
-          color: ${({ theme }) => theme.colors.white};
+          ${"" /* color: ${({ theme }) => theme.colors.white}; */}
+          color:white;
           font-size: 2.4rem;
           position: relative;
           cursor: pointer;
@@ -117,7 +119,7 @@ const Wrapper = styled.section`
     }
   }
   .footer-bottom--section {
-    display
+    display: flex;
     padding-top: 9rem;
 
     hr {
@@ -143,8 +145,8 @@ const Wrapper = styled.section`
     }
     .footer-bottom--section {
       padding-top: 4.8rem;
-      display:flex;
-      justify-content:space-between;
+      display: flex;
+      justify-content: space-between;
     }
   }
 `;

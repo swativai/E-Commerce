@@ -1,10 +1,51 @@
 import styled from "styled-components";
 import React from "react";
+// import { useParams } from "react-router-dom";
+// import { useProductContext } from "./context/productcontex";
+// import PageNavigation from "./components/PageNavigation";
+// import MyImage from "./components/MyImage";
+// import { Container } from "./styles/Container";
+
+// const API = "https://api.pujakaitem.com/api/products";
 
 const SingleProduct = () => {
-  return <Wrapper>
-      
-  </Wrapper>;
+  // const { getSingleProduct, isSingleLoading, singleProduct } =
+  // useProductContext();
+  // const { id } = useParams();
+  // const {
+  // id: alise,
+  // name,
+  // company,
+  // price,
+  // description,
+  // categary,
+  // stock,
+  // reviews,
+  // stars,
+  //   image,
+  // } = singleProduct;
+  // console.log(singleProduct);
+  //https://api.pujakaitem.com/api/products?id=thapaserialnoa
+
+  // console.log("The id of the single element: ", id);
+  // useEffect(() => {
+  // getSingleProduct(API);
+  //   getSingleProduct(`${API}?id=${id}`);
+  // }, []);
+
+  // if (isSingleLoading) {
+  //   return <div className="page_loading">...........Loading</div>;
+  // }
+  return (
+    <Wrapper>
+      {/* <PageNavigation title={name} />
+      <Container className="container">
+        <div className="grid grid-two-column">
+          <MyImage imgs={image} />
+        </div>
+      </Container> */}
+    </Wrapper>
+  );
 };
 
 const Wrapper = styled.section`
